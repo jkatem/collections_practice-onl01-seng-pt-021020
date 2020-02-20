@@ -18,3 +18,12 @@ end
 def reverse_array(arr)
   arr.reverse
 end
+
+def kesha_maker(arr)
+
+  arr.each {|i| i[2] = "$" }
+end
+
+def find_a(arr)
+  arr.select {|x| x = "a"}
+end
