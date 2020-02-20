@@ -29,5 +29,5 @@ def find_a(arr)
 end
 
 def sum_array(arr)
-  arr.inject(0) { |result, ele| result + el }
+  arr.inject(0) { |result, ele| result + ele }
 end
