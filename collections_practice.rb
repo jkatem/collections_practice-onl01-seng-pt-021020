@@ -25,5 +25,5 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.select {|x| x = "a"}
+  arr.select {|x, i| x[i] = "a"}
 end
