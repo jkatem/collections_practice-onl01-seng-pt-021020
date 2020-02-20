@@ -32,6 +32,6 @@ def sum_array(arr)
   arr.inject(0) { |result, ele| result + ele }
 end
 
-def add_s(arr)
+def add_s(array)
   array.each_with_index.collect {|element, index| element = index == 1 ? element : element << "s"}
 end
